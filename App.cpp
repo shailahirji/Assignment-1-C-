@@ -38,7 +38,7 @@ int main() {
 	char userRequest;
 	while (run) // to exit, user enters q.
 	{
-		userRequest = operationPrompt(); //maybe re name this
+		userRequest = operationPrompt(); 
 		switch (userRequest) {
 		case 'A':
 		case 'a': {
@@ -68,7 +68,7 @@ int main() {
 			cout << "Enter Name:";
 			getline(cin, request);
 			pointer = deleteContact(request);
-			numberContacts--; //after delete success, decrement
+			numberContacts--; //after delete successful, decrement
 			cout << endl;
 		}
 			break;
@@ -91,7 +91,7 @@ int main() {
 
 	return 0;
 }
-
+//-------------------------------HELPER METHODS---------------------------------
 /*
  * Prints operation prompt
  */
