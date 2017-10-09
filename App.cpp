@@ -14,7 +14,7 @@
 #include "Contact.h"
 using namespace std;
 
-//glonal variables, accesible to all methods
+//global variables, accesible to all methods
 Contact* pointer;
 int numberContacts;
 int main() {
